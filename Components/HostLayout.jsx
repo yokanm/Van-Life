@@ -34,7 +34,6 @@ function HostLayout() {
                 to="/host/vans"
             >
                Vans
-
             </NavLink>
 
             <NavLink 
@@ -42,10 +41,7 @@ function HostLayout() {
                 to="/host/reviews"
             >
                 Reviews
-
             </NavLink>
-           
-
         </nav>
         <Outlet/>
         </>

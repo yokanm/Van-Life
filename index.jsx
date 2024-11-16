@@ -25,15 +25,14 @@ import AuthRequired from "./Components/AuthRequired";
 function App() {
   return (
     <BrowserRouter>
-      <Routes >
 
+      <Routes >
         <Route path="/" element={<Layout />}>
             <Route index element={<Home />}/>
             <Route path="about" element={<About />}/>
             <Route path="vans" element={<Vans />}/>
             <Route path="vans/:id" element={<VanDetail />}/>
             <Route path="login" element={<Login/>}/>
-          
         <Route element={<AuthRequired/>}>
           <Route path="host" element={<HostLayout/>}>
             <Route index element={<Dashboard />}/>
@@ -50,7 +49,7 @@ function App() {
         </Route>
            
             <Route path="*" element= {<NotFound/>}/>
-          </Route>
+        </Route>
 
       </Routes> 
 
