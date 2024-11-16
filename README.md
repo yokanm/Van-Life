@@ -7,8 +7,7 @@ Welcome to the Van Life project! This is a travel van rental muitipage web appli
 - Installation
 - Usage
 - Authentication
-- Contributing
-- License
+
 ## 🎯 Features
 - Van Search: Filter through different van options based on search parameters such as type, price, etc.
 - Van Details: Each van comes with a description, pricing, and images.
